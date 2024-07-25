@@ -1,5 +1,87 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 4ab4bfc6-98ca-4cb1-8273-436b96035b51)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "GuitarFX")
+    (date "2024-07-23")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "[1] Power" (at 26.035 52.705 0)
+    (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
+    (uuid 3a8cad06-9894-4afe-bc62-cfb0b0e789f7)
+  )
+  (text "GuitarFX Board" (at 23.495 34.925 0)
+    (effects (font (size 10 10) bold italic) (justify left bottom))
+    (uuid 437a8b64-646b-4caf-9505-8a1c7d736635)
+  )
+  (text "[2] MCU" (at 71.12 52.07 0)
+    (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
+    (uuid 594f302b-bce8-48c4-ba0e-455a0a08d0aa)
+  )
+  (text "[3] Codec" (at 115.57 52.07 0)
+    (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
+    (uuid dbb686f3-efb7-47e3-92a9-9446bf653a13)
+  )
+
+  (sheet (at 27.305 56.515) (size 29.845 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 171d6b95-1f9c-4c9d-954a-bc461d0cb77a)
+    (property "Sheetname" "Power" (at 27.305 55.8034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 27.305 85.0396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 72.39 55.88) (size 29.845 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf97d527-62da-4324-8e3d-11052c92c164)
+    (property "Sheetname" "MCU" (at 72.39 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 72.39 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 116.84 55.88) (size 29.845 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f4019564-1b11-4e06-85da-8b19d5c49e41)
+    (property "Sheetname" "Codec" (at 116.84 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Codec.kicad_sch" (at 116.84 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
