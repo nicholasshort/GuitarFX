@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=ACM2012-900-2P-TL002
+PartCategory=Filter
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2021-03-04 09:33:50
+Downloaded=2024-08-16 05:36:50
+3D=Y

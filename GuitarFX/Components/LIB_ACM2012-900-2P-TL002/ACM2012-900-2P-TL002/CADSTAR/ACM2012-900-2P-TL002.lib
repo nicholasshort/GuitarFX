@@ -1,0 +1,18 @@
+.ACM2012-900-2P-TL002 :1 ;Common Mode Chokes / Filters -
+ACM20129002PTL002
+*STM FL
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN ACM2012-900-2P-TL002
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (ACM2012-900-2P-TL002)
+~!Mouser Part Number (810-ACM209002PTL002)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/ACM2012-900-2P-TL002?qs=YdQ7Kj7W0bxxBDY3mg797A%3D%3D)
+~!Arrow Part Number (ACM2012-900-2P-TL002)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/acm2012-900-2p-tl002/tdk?region=nac)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_signal_acm2012_en.pdf?ref_disty=digikey)
+~!Height (1.3mm)
+~!3D_Model (ACM2012-900-2P-TL002)
+ACM2012-900-2P-TL002
+1.1!U 2.1!U 3.1!U 4.1!U 

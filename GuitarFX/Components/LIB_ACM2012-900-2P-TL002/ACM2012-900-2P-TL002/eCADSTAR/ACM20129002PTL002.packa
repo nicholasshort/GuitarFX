@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ACM2012-900-2P-TL002"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-04-09:33:50)
+    (mountForm default
+        (footprintRef "ACM20129002PTL002")
+        (spec "System")
+    )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ACM20129002PTL002"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ACM20129002PTL002")
+        (spec "default")
+    )
+)

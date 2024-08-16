@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACM2012_900_2P_TL002'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "ACM2012-900-2P-TL002" (!) = "", "ACM20129002PTL002", "Other", "810-ACM209002PTL002", "https://www.mouser.co.uk/ProductDetail/TDK/ACM2012-900-2P-TL002?qs=YdQ7Kj7W0bxxBDY3mg797A%3D%3D", "ACM2012-900-2P-TL002", "https://www.arrow.com/en/products/acm2012-900-2p-tl002/tdk?region=nac", "Common Mode Chokes / Filters -", "https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_signal_acm2012_en.pdf?ref_disty=digikey", "1.3 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACM2012-900-2P-TL002
+D Common Mode Chokes / Filters -
+K
+F https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_signal_acm2012_en.pdf?ref_disty=digikey
+$ENDCMP
+#
+#End Doc Library
