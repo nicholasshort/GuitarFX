@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "ACM2012-900-2P-TL002")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_ACM2012-900-2P-TL002/ACM2012-900-2P-TL002/KiCad/ACM2012-900-2P-TL002.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM3060PWR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_PCM3060PWR/PCM3060PWR/KiCad/PCM3060PWR.kicad_sym")(options "")(descr ""))
 )

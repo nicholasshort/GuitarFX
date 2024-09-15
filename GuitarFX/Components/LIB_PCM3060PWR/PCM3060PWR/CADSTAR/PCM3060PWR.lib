@@ -1,0 +1,18 @@
+.PCM3060PWR :1 ;24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate
+SOP65P640X120-28N
+*STM IC
+*NGS
+*PLB 1="MC/SCL/FMT" 2="MD/SDA/DEMP" 3="DOUT" 4="LRCK1" 5="BCK1" 6="SCKI1" 7="VDD" 8="DGND" 9="SCKI2" 10="BCK2" 11="LRCK2" 12="DIN" 13="ZEROR" 14="ZEROL" 15="'RST'" 16="SGND" 17="VOUTR-" 18="VOUTR+" 19="VOUTL-" 20="VOUTL+" 21="VCOM" 22="AGND2" 23="AGND1" 24="VCC" 25="VINL" 26="VINR" 27="'MS'/ADR/IFMD" 28="MODE"
+*MXP 28
+*DFN PCM3060PWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (PCM3060PWR)
+~!Mouser Part Number (595-PCM3060PWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM3060PWR?qs=W5eanQMd1BA4oHiQoX9kuw%3D%3D)
+~!Arrow Part Number (PCM3060PWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pcm3060pwr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/pcm3060.pdf?ts=1606824200789&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DPCM3060PWR%2526keyMatch%253DPCM3060PWR%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN)
+~!Height (1.2mm)
+~!3D_Model (PCM3060PWR)
+PCM3060PWR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 
