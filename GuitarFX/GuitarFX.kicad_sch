@@ -25,10 +25,6 @@
     (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
     (uuid 594f302b-bce8-48c4-ba0e-455a0a08d0aa)
   )
-  (text "[4] Memory" (at 158.75 52.07 0)
-    (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
-    (uuid 6a20a66c-5c39-4483-a328-e7c73070816a)
-  )
   (text "[3] Codec" (at 115.57 52.07 0)
     (effects (font (size 4 4) (thickness 2) bold italic) (justify left bottom))
     (uuid dbb686f3-efb7-47e3-92a9-9446bf653a13)
@@ -64,23 +60,6 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 160.02 55.88) (size 29.21 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ddbae579-67dc-41c7-9aad-2b634314ffc6)
-    (property "Sheetname" "Memory" (at 160.02 55.1684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Memory.kicad_sch" (at 160.02 84.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "GuitarFX"
-        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51" (page "5"))
       )
     )
   )
