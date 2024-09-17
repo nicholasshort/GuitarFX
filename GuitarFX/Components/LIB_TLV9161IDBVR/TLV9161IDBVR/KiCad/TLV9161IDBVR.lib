@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TLV9161IDBVR
+#/16267186/1063637/2.50/5/3/Integrated Circuit
+DEF TLV9161IDBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV9161IDBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F" 850 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps Single 10-MHz, 16-V rail-to-rail input/output, very low noise, high slew rate op amp" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TLV9161IDBVR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TLV9161IDBVR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TLV9161IDBVR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X V- 2 0 -100 200 R 50 50 0 0 P
+X IN+ 3 0 -200 200 R 50 50 0 0 P
+X IN- 4 1000 0 200 L 50 50 0 0 P
+X V+ 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV9161IDBVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV9161IDBVR" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-TLV9161IDBVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D", "TLV9161IDBVR", "https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?region=nac", "Operational Amplifiers - Op Amps Single 10-MHz, 16-V rail-to-rail input/output, very low noise, high slew rate op amp", "https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F", "1.45 mm"
+END_PART
+
+END.

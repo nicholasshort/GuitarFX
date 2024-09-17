@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TLV9161IDBVR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/KiCad")(options "")(descr ""))
+)

@@ -1,0 +1,18 @@
+.TLV9161IDBVR :1 ;Operational Amplifiers - Op Amps Single 10-MHz, 16-V rail-to-rail input/output, very low noise, high slew rate op amp
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="V-" 3="IN+" 4="IN-" 5="V+"
+*MXP 5
+*DFN TLV9161IDBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV9161IDBVR)
+~!Mouser Part Number (595-TLV9161IDBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9161IDBVR?qs=Rp5uXu7WBW%2FkWJAGvxG3xQ%3D%3D)
+~!Arrow Part Number (TLV9161IDBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tlv9161idbvr/texas-instruments?region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tlv9161.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1675947383550&ref_url=https%253A%252F%252Fwww.mouser.de%252F)
+~!Height (1.45mm)
+~!3D_Model (TLV9161IDBVR)
+TLV9161IDBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 
