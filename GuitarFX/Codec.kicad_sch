@@ -148,6 +148,131 @@
         )
       )
     )
+    (symbol "Connector:Screw_Terminal_01x04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Screw_Terminal_01x04" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "screw terminal" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Screw_Terminal_01x04_1_1"
+        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (circle (center 0 -5.08) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 -2.54) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 -4.7498)
+            (xy 0.3302 -5.588)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 -2.2098)
+            (xy 0.3302 -3.048)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 0.3302)
+            (xy 0.3302 -0.508)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 2.8702)
+            (xy 0.3302 2.032)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 -4.572)
+            (xy 0.508 -5.4102)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 -2.032)
+            (xy 0.508 -2.8702)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 0.508)
+            (xy 0.508 -0.3302)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 3.048)
+            (xy 0.508 2.2098)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 2.54) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1531,7 +1656,7 @@
   (symbol (lib_id "Device:C") (at -67.31 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00364df1-85b3-4fd6-9129-ed3398879069)
-    (property "Reference" "C408" (at -64.135 162.56 0)
+    (property "Reference" "C410" (at -64.135 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at -64.135 165.1 0)
@@ -1548,7 +1673,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C408") (unit 1)
+          (reference "C410") (unit 1)
         )
       )
     )
@@ -1557,7 +1682,7 @@
   (symbol (lib_id "Device:C") (at -43.18 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0945551b-9d21-42b8-b210-852117b6cc87)
-    (property "Reference" "C410" (at -40.005 160.02 0)
+    (property "Reference" "C408" (at -40.005 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at -40.005 162.56 0)
@@ -1574,7 +1699,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C410") (unit 1)
+          (reference "C408") (unit 1)
         )
       )
     )
@@ -1603,7 +1728,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R405") (unit 1)
+          (reference "R410") (unit 1)
         )
       )
     )
@@ -1631,7 +1756,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -1640,7 +1765,7 @@
   (symbol (lib_id "Device:C") (at -90.805 118.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bce907b-55e8-45fd-a724-7e7804043abc)
-    (property "Reference" "C404" (at -87.63 117.475 0)
+    (property "Reference" "C402" (at -87.63 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at -87.63 120.015 0)
@@ -1657,7 +1782,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C404") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -1666,7 +1791,7 @@
   (symbol (lib_id "Device:C") (at -91.44 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c183394-1445-4d47-adfa-da5106c245de)
-    (property "Reference" "C401" (at -88.265 141.605 0)
+    (property "Reference" "C406" (at -88.265 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at -88.265 144.145 0)
@@ -1683,7 +1808,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C401") (unit 1)
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -1712,7 +1837,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R411") (unit 1)
+          (reference "R403") (unit 1)
         )
       )
     )
@@ -1721,7 +1846,7 @@
   (symbol (lib_id "power:GND") (at -144.145 148.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26541624-8f4f-4a00-bd81-476044e45afa)
-    (property "Reference" "#PWR0406" (at -144.145 154.94 0)
+    (property "Reference" "#PWR0411" (at -144.145 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -147.955 150.495 0)
@@ -1737,7 +1862,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
@@ -1746,7 +1871,7 @@
   (symbol (lib_id "power:GND") (at -143.51 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2660154b-8fc0-470e-88c5-445352646beb)
-    (property "Reference" "#PWR0411" (at -143.51 209.55 0)
+    (property "Reference" "#PWR0423" (at -143.51 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -147.32 205.105 0)
@@ -1762,7 +1887,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0423") (unit 1)
         )
       )
     )
@@ -1791,7 +1916,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R413") (unit 1)
+          (reference "R405") (unit 1)
         )
       )
     )
@@ -1819,7 +1944,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -1828,7 +1953,7 @@
   (symbol (lib_id "Device:R") (at 64.135 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fd877c9-a9a2-4ad5-ba96-3f73901193cc)
-    (property "Reference" "R416" (at 66.04 97.79 0)
+    (property "Reference" "R401" (at 66.04 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 66.04 100.33 0)
@@ -1845,7 +1970,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R416") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -1854,7 +1979,7 @@
   (symbol (lib_id "Device:C") (at -144.145 142.875 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36c80904-bfdc-43d5-ad73-ece5edc3ec29)
-    (property "Reference" "C406" (at -147.32 141.605 0)
+    (property "Reference" "C403" (at -147.32 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at -147.32 144.145 0)
@@ -1871,7 +1996,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C406") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -1880,7 +2005,7 @@
   (symbol (lib_id "power:GND") (at -67.31 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 373ef803-6016-4b0b-b5db-4450935727ee)
-    (property "Reference" "#PWR0408" (at -67.31 176.53 0)
+    (property "Reference" "#PWR0418" (at -67.31 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -63.5 172.085 0)
@@ -1896,7 +2021,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0418") (unit 1)
         )
       )
     )
@@ -1905,7 +2030,7 @@
   (symbol (lib_id "power:GND") (at 139.7 135.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cb53085-79cd-40c9-ba39-9115bb0704cc)
-    (property "Reference" "#PWR0418" (at 139.7 141.605 0)
+    (property "Reference" "#PWR0407" (at 139.7 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 137.16 0)
@@ -1921,7 +2046,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -1930,7 +2055,7 @@
   (symbol (lib_id "Device:R") (at 73.66 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43dddc80-1d6d-470c-920a-1b3a926de5e8)
-    (property "Reference" "R415" (at 75.565 97.79 0)
+    (property "Reference" "R402" (at 75.565 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 75.565 100.33 0)
@@ -1947,7 +2072,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R415") (unit 1)
+          (reference "R402") (unit 1)
         )
       )
     )
@@ -1956,7 +2081,7 @@
   (symbol (lib_id "power:GND") (at -90.805 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45536f63-d529-4971-b5c5-ef1d63b7a3d9)
-    (property "Reference" "#PWR0404" (at -90.805 130.81 0)
+    (property "Reference" "#PWR0406" (at -90.805 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -86.995 126.365 0)
@@ -1972,7 +2097,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -1981,7 +2106,7 @@
   (symbol (lib_id "Device:C") (at -56.515 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45858874-0180-4119-9b82-e46ffe4addcd)
-    (property "Reference" "C409" (at -53.34 160.02 0)
+    (property "Reference" "C407" (at -53.34 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at -53.34 162.56 0)
@@ -1998,7 +2123,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C409") (unit 1)
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -2053,7 +2178,7 @@
           (reference "U1") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "U1") (unit 1)
+          (reference "U403") (unit 1)
         )
       )
     )
@@ -2062,7 +2187,7 @@
   (symbol (lib_id "power:GND") (at 133.35 147.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51f6cfd3-8ea6-4075-aa91-98fcc0fd3742)
-    (property "Reference" "#PWR0417" (at 133.35 154.305 0)
+    (property "Reference" "#PWR0410" (at 133.35 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 149.86 0)
@@ -2078,7 +2203,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -2160,7 +2285,7 @@
   (symbol (lib_id "Device:C") (at -104.14 118.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f6e5ad-2bce-4f77-b3e4-3661449389eb)
-    (property "Reference" "C403" (at -100.965 117.475 0)
+    (property "Reference" "C401" (at -100.965 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at -100.965 120.015 0)
@@ -2177,7 +2302,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C403") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -2186,7 +2311,7 @@
   (symbol (lib_id "Device:C") (at 102.235 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56afcb0b-5bae-4986-be1f-3f39fa3479de)
-    (property "Reference" "C412" (at 106.045 165.1 0)
+    (property "Reference" "C414" (at 106.045 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 106.045 167.64 0)
@@ -2203,7 +2328,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C412") (unit 1)
+          (reference "C414") (unit 1)
         )
       )
     )
@@ -2232,7 +2357,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R409") (unit 1)
+          (reference "R414") (unit 1)
         )
       )
     )
@@ -2241,7 +2366,7 @@
   (symbol (lib_id "Device:C") (at -80.01 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c6abfda-fe6c-457e-bbaa-21b6d8764149)
-    (property "Reference" "C407" (at -76.835 162.56 0)
+    (property "Reference" "C409" (at -76.835 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at -76.835 165.1 0)
@@ -2258,7 +2383,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C407") (unit 1)
+          (reference "C409") (unit 1)
         )
       )
     )
@@ -2292,28 +2417,28 @@
     )
   )
 
-  (symbol (lib_id "Simulation_SPICE:OPAMP") (at 68.58 45.72 0) (unit 1)
+  (symbol (lib_id "Simulation_SPICE:OPAMP") (at 90.805 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61a63a8f-d067-469f-b1e5-eb6fb380a5da)
-    (property "Reference" "U401" (at 76.2 49.53 0)
+    (property "Reference" "U401" (at 98.425 50.165 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TLV9161IDBVR" (at 76.2 52.07 0)
+    (property "Value" "TLV9161IDBVR" (at 98.425 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TLV9161IDBVR:SOT95P280X145-5N" (at 68.58 45.72 0)
+    (property "Footprint" "TLV9161IDBVR:SOT95P280X145-5N" (at 90.805 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 68.58 45.72 0)
+    (property "Datasheet" "~" (at 90.805 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5" (at 68.58 45.72 0)
+    (property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5" (at 90.805 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "SPICE" (at 68.58 45.72 0)
+    (property "Sim.Device" "SPICE" (at 90.805 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Sim.Params" "type=\"X\" model=\"OPAMP\" lib=\"\"" (at 68.58 45.72 0)
+    (property "Sim.Params" "type=\"X\" model=\"OPAMP\" lib=\"\"" (at 90.805 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d887aec8-4b9c-43fe-83e7-d4c34b79d882))
@@ -2333,7 +2458,7 @@
   (symbol (lib_id "power:GND") (at -91.44 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fa7f49d-b59f-462e-a4c2-a55efe9457e3)
-    (property "Reference" "#PWR0401" (at -91.44 154.94 0)
+    (property "Reference" "#PWR0412" (at -91.44 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -87.63 150.495 0)
@@ -2349,7 +2474,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
     )
@@ -2358,7 +2483,7 @@
   (symbol (lib_id "power:GND") (at -43.18 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8363d2bc-c3d9-4d42-846e-2a2234468942)
-    (property "Reference" "#PWR0409" (at -43.18 173.355 0)
+    (property "Reference" "#PWR0417" (at -43.18 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -39.37 168.91 0)
@@ -2374,7 +2499,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0417") (unit 1)
         )
       )
     )
@@ -2402,7 +2527,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -2437,7 +2562,7 @@
   (symbol (lib_id "Device:R") (at -194.945 191.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ced54e8-9cc2-4ef2-9582-03f0c1c74524)
-    (property "Reference" "R402" (at -193.04 189.865 0)
+    (property "Reference" "R415" (at -193.04 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at -193.04 192.405 0)
@@ -2454,7 +2579,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R402") (unit 1)
+          (reference "R415") (unit 1)
         )
       )
     )
@@ -2463,7 +2588,7 @@
   (symbol (lib_id "Device:C") (at -130.81 142.875 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f46c376-5271-43a3-a6bd-969aabe453ea)
-    (property "Reference" "C405" (at -133.985 141.605 0)
+    (property "Reference" "C404" (at -133.985 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at -133.985 144.145 0)
@@ -2480,7 +2605,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C405") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -2508,7 +2633,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0422") (unit 1)
         )
       )
     )
@@ -2542,10 +2667,76 @@
     )
   )
 
+  (symbol (lib_id "Simulation_SPICE:OPAMP") (at 132.715 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 96546111-8ae0-4ebe-8bc3-662cdce007b6)
+    (property "Reference" "U402" (at 140.335 50.165 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TLV9161IDBVR" (at 140.335 52.705 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "TLV9161IDBVR:SOT95P280X145-5N" (at 132.715 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 132.715 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5" (at 132.715 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "SPICE" (at 132.715 46.355 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Params" "type=\"X\" model=\"OPAMP\" lib=\"\"" (at 132.715 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c14d53fb-c6b7-4d84-b98c-1f31a5b30a23))
+    (pin "2" (uuid 9d1a5299-bb57-4fee-b98f-55a07f941b36))
+    (pin "3" (uuid c6222119-61c9-41dd-aad3-09950b5cc137))
+    (pin "4" (uuid 4a9302a3-aa3b-451e-905b-0576d1179b06))
+    (pin "5" (uuid ba4ecf2d-251e-461c-ab8e-fa13a5c4add3))
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
+          (reference "U402") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Screw_Terminal_01x04") (at 36.195 47.625 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 995cea52-c2c9-412f-9819-d6156e12943b)
+    (property "Reference" "J401" (at 36.195 36.195 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Screw_Terminal_01x04" (at 36.195 38.735 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 36.195 47.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.195 47.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cb491433-4949-4b24-b8b3-d6eb63fafd65))
+    (pin "2" (uuid ccd3f0ca-6a20-4341-82fb-ed73959a7810))
+    (pin "3" (uuid 07bc41c2-ad6f-424f-a26f-e4c5cff55ac3))
+    (pin "4" (uuid 6a78295d-11c3-4e7d-8b32-68afd0ff8b91))
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
+          (reference "J401") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at -133.985 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c6efd4a-4e8d-406f-9258-71b1c8ef40b1)
-    (property "Reference" "#PWR0413" (at -133.985 170.18 0)
+    (property "Reference" "#PWR0415" (at -133.985 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -137.795 165.735 0)
@@ -2561,7 +2752,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -2570,7 +2761,7 @@
   (symbol (lib_id "power:GND") (at 67.945 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a11d91e8-6d79-40fe-ab3d-7627a2d60f56)
-    (property "Reference" "#PWR0420" (at 67.945 178.435 0)
+    (property "Reference" "#PWR0419" (at 67.945 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.945 176.53 0)
@@ -2586,7 +2777,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0419") (unit 1)
         )
       )
     )
@@ -2595,7 +2786,7 @@
   (symbol (lib_id "power:GND") (at 139.7 108.585 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2c270b2-502e-4e30-9000-8e7663db8ef9)
-    (property "Reference" "#PWR0416" (at 139.7 114.935 0)
+    (property "Reference" "#PWR0402" (at 139.7 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 110.49 0)
@@ -2611,7 +2802,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -2620,7 +2811,7 @@
   (symbol (lib_id "Device:C") (at -104.775 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2d1580e-dc06-4bfd-a2a2-8dae59f5b2ea)
-    (property "Reference" "C402" (at -101.6 141.605 0)
+    (property "Reference" "C405" (at -101.6 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at -101.6 144.145 0)
@@ -2637,7 +2828,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C402") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -2646,7 +2837,7 @@
   (symbol (lib_id "power:GND") (at 64.77 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4071906-9c6f-49e7-9fba-9b989b174435)
-    (property "Reference" "#PWR0422" (at 64.77 130.175 0)
+    (property "Reference" "#PWR0405" (at 64.77 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 127.635 0)
@@ -2662,7 +2853,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -2671,7 +2862,7 @@
   (symbol (lib_id "power:GND") (at 89.535 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e4499c-02ae-4072-b41e-66b89a766cd9)
-    (property "Reference" "#PWR0419" (at 89.535 178.435 0)
+    (property "Reference" "#PWR0420" (at 89.535 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.345 173.99 0)
@@ -2687,7 +2878,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0420") (unit 1)
         )
       )
     )
@@ -2696,7 +2887,7 @@
   (symbol (lib_id "power:GND") (at 128.27 172.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a948348e-767c-4afa-a3c5-4a403daf2b69)
-    (property "Reference" "#PWR0424" (at 128.27 178.435 0)
+    (property "Reference" "#PWR0421" (at 128.27 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 173.99 0)
@@ -2712,7 +2903,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0421") (unit 1)
         )
       )
     )
@@ -2741,7 +2932,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R417") (unit 1)
+          (reference "R407") (unit 1)
         )
       )
     )
@@ -2750,7 +2941,7 @@
   (symbol (lib_id "Device:C") (at 89.535 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b160b4c6-7c8b-4118-a373-8645e41bb60c)
-    (property "Reference" "C411" (at 93.345 165.1 0)
+    (property "Reference" "C413" (at 93.345 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 93.345 167.64 0)
@@ -2767,7 +2958,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C411") (unit 1)
+          (reference "C413") (unit 1)
         )
       )
     )
@@ -2776,7 +2967,7 @@
   (symbol (lib_id "Device:C") (at 67.945 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4b3b56a-ca2b-414a-98fe-87019824b4bf)
-    (property "Reference" "C414" (at 59.69 165.1 0)
+    (property "Reference" "C411" (at 59.69 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 59.69 167.64 0)
@@ -2793,7 +2984,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C414") (unit 1)
+          (reference "C411") (unit 1)
         )
       )
     )
@@ -2802,7 +2993,7 @@
   (symbol (lib_id "Device:R") (at 133.35 142.875 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8550618-e0bf-4f54-99dc-77ef3c21832b)
-    (property "Reference" "R410" (at 135.255 141.605 0)
+    (property "Reference" "R408" (at 135.255 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 135.255 144.145 0)
@@ -2819,7 +3010,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R410") (unit 1)
+          (reference "R408") (unit 1)
         )
       )
     )
@@ -2828,7 +3019,7 @@
   (symbol (lib_id "Device:R") (at -143.51 197.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c45e4fc9-926b-43f0-9a17-5962ab9ac0e5)
-    (property "Reference" "R403" (at -141.605 196.215 0)
+    (property "Reference" "R417" (at -141.605 196.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at -141.605 198.755 0)
@@ -2845,7 +3036,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R403") (unit 1)
+          (reference "R417") (unit 1)
         )
       )
     )
@@ -2873,7 +3064,7 @@
           (reference "#PWR05") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
@@ -2882,7 +3073,7 @@
   (symbol (lib_id "power:GND") (at -113.665 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd32a07d-bda9-4b06-bb14-d516367bcfd0)
-    (property "Reference" "#PWR0407" (at -113.665 209.55 0)
+    (property "Reference" "#PWR0424" (at -113.665 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -117.475 205.105 0)
@@ -2898,7 +3089,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0424") (unit 1)
         )
       )
     )
@@ -2927,7 +3118,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R406") (unit 1)
+          (reference "R411") (unit 1)
         )
       )
     )
@@ -2982,7 +3173,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R407") (unit 1)
+          (reference "R412") (unit 1)
         )
       )
     )
@@ -3011,7 +3202,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R414") (unit 1)
+          (reference "R406") (unit 1)
         )
       )
     )
@@ -3020,7 +3211,7 @@
   (symbol (lib_id "Device:C") (at 80.645 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3f12782-2201-4f12-94ff-556473f4320c)
-    (property "Reference" "C413" (at 72.39 165.1 0)
+    (property "Reference" "C412" (at 72.39 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 72.39 167.64 0)
@@ -3037,7 +3228,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "C413") (unit 1)
+          (reference "C412") (unit 1)
         )
       )
     )
@@ -3046,7 +3237,7 @@
   (symbol (lib_id "Device:R") (at -176.53 191.135 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e995ccb2-4e32-48b9-bf27-0b2a9dd2d8cb)
-    (property "Reference" "R401" (at -174.625 189.865 0)
+    (property "Reference" "R416" (at -174.625 189.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at -174.625 192.405 0)
@@ -3063,7 +3254,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R401") (unit 1)
+          (reference "R416") (unit 1)
         )
       )
     )
@@ -3072,7 +3263,7 @@
   (symbol (lib_id "Device:R") (at -165.735 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb76eea0-b25e-482f-b4fb-ab7f3778c086)
-    (property "Reference" "R404" (at -163.83 160.02 0)
+    (property "Reference" "R409" (at -163.83 160.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at -163.83 162.56 0)
@@ -3089,7 +3280,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R404") (unit 1)
+          (reference "R409") (unit 1)
         )
       )
     )
@@ -3098,7 +3289,7 @@
   (symbol (lib_id "power:GND") (at 139.7 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eec7f6d0-b8ea-44e4-be1f-3ada398c7039)
-    (property "Reference" "#PWR0415" (at 139.7 128.27 0)
+    (property "Reference" "#PWR0404" (at 139.7 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 123.825 0)
@@ -3114,7 +3305,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -3123,7 +3314,7 @@
   (symbol (lib_id "power:GND") (at -165.735 167.005 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef96781d-db6e-4259-8a81-e7558913d661)
-    (property "Reference" "#PWR0412" (at -165.735 173.355 0)
+    (property "Reference" "#PWR0416" (at -165.735 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at -169.545 168.91 0)
@@ -3139,7 +3330,7 @@
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -3168,7 +3359,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R412") (unit 1)
+          (reference "R404") (unit 1)
         )
       )
     )
@@ -3197,7 +3388,7 @@
           (reference "R302") (unit 1)
         )
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/f4019564-1b11-4e06-85da-8b19d5c49e41"
-          (reference "R408") (unit 1)
+          (reference "R413") (unit 1)
         )
       )
     )
