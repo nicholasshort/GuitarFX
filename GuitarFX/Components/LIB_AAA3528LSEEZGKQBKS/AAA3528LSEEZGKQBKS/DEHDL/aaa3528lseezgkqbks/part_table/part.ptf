@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AAA3528LSEEZGKQBKS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Kingbright", "AAA3528LSEEZGKQBKS" (!) = "", "AAA3528", "Other", "604-AAA3528LSEEZGKQB", "https://www.mouser.co.uk/ProductDetail/Kingbright/AAA3528LSEEZGKQBKS?qs=ZqXcJfGlKsgtcc2GIEUJBA%3D%3D", "AAA3528LSEEZGKQBKS", "null?region=nac", "Standard LEDs - SMD 3.5x2.8MM LOW CU RGB SMD", "http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528LSEEZGKQBKS.pdf"
+END_PART
+
+END.

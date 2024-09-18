@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AAA3528LSEEZGKQBKS"
+   (description "Standard LEDs - SMD 3.5x2.8MM LOW CU RGB SMD")
+   (family "DIO")
+   (package "AAA3528")
+   (attribute "Datasheet Link" "http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528LSEEZGKQBKS.pdf")
+   (attribute "Manufacturer_Name" "Kingbright")
+   (attribute "Manufacturer_Part_Number" "AAA3528LSEEZGKQBKS")
+   (attribute "Mouser Part Number" "604-AAA3528LSEEZGKQB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AAA3528LSEEZGKQBKS?qs=ZqXcJfGlKsgtcc2GIEUJBA%3D%3D")
+   (attribute "Arrow Part Number" "AAA3528LSEEZGKQBKS")
+   (attribute "Arrow Price/Stock" "null?region=nac")
+   (gate
+    (symbol "AAA3528LSEEZGKQBKS")
+    (pin "CATHODE_1" 1 PS)
+    (pin "ANODE" 2 PS)
+    (pin "CATHODE_2" 3 PS)
+    (pin "CATHODE_3" 4 PS)
+   )
+  )
+  (symbol "AAA3528LSEEZGKQBKS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AAA3528"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1.82 1.533)
+      (pt 1.788 1.533)
+      (pt 1.788 -1.542)
+      (pt -1.82 -1.542)
+      (pt -1.82 1.533))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.82 1.533)
+      (pt 1.788 1.533))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.82 -1.542)
+      (pt 1.788 -1.542))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt 2.23648 -1.299) (pt 2.36752 -1.299)
+     )
+    )
+   )
+   (leg 1 (pt 1.4 -0.725) (padstack 0))
+   (leg 2 (pt -1.4 -0.725) (padstack 0))
+   (leg 3 (pt -1.4 0.725) (padstack 0))
+   (leg 4 (pt 1.4 0.725) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.9 1.2 0 0 0))
+   )
+   (model "AAA3528LSEEZGKQBKS.stp"
+    (euler 90 0 0)
+    (offset 0.18000000715255737 0 1)
+   )
+  )
+ )
+)

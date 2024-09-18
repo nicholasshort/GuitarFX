@@ -1,0 +1,18 @@
+.AAA3528LSEEZGKQBKS :1 ;Standard LEDs - SMD 3.5x2.8MM LOW CU RGB SMD
+AAA3528
+*STM LED
+*NGS
+*PLB 1="CATHODE_1" 2="ANODE" 3="CATHODE_2" 4="CATHODE_3"
+*MXP 4
+*DFN AAA3528LSEEZGKQBKS
+~!Manufacturer_Name (Kingbright)
+~!Manufacturer_Part_Number (AAA3528LSEEZGKQBKS)
+~!Mouser Part Number (604-AAA3528LSEEZGKQB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Kingbright/AAA3528LSEEZGKQBKS?qs=ZqXcJfGlKsgtcc2GIEUJBA%3D%3D)
+~!Arrow Part Number (AAA3528LSEEZGKQBKS)
+~!Link Arrow Price/Stock (null?region=nac)
+~!Link Datasheet (http://www.kingbrightusa.com/images/catalog/SPEC/AAA3528LSEEZGKQBKS.pdf)
+~!Height (-)
+~!3D_Model (AAA3528LSEEZGKQBKS)
+AAA3528LSEEZGKQBKS
+1.1!U 2.1!U 3.1!U 4.1!U 

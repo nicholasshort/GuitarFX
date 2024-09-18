@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AAA3528"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AAA3528")
+        (spec "default")
+    )
+)

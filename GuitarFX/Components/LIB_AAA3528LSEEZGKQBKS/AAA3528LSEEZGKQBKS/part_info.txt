@@ -1,0 +1,9 @@
+Manufacturer=Kingbright
+PartNumber=AAA3528LSEEZGKQBKS
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2016-12-31 14:23:44
+Downloaded=2024-09-18 21:53:14
+3D=Y
