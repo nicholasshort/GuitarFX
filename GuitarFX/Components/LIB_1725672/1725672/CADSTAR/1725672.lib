@@ -1,0 +1,18 @@
+.1725672 :1 ;4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V
+"1725672"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN 1725672
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1725672)
+~!Mouser Part Number (651-1725672)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725672?qs=Ul7CXFMnlWXX93F9bOV2pQ%3D%3D)
+~!Arrow Part Number (1725672)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1725672/phoenix-contact?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00050602.pdf)
+~!Height (8.65mm)
+~!3D_Model (1725672)
+"1725672"
+1.1!U 2.1!U 3.1!U 4.1!U 

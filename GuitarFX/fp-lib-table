@@ -1,4 +1,9 @@
 (fp_lib_table
   (version 7)
   (lib (name "TLV9161IDBVR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/KiCad")(options "")(descr ""))
+  (lib (name "ACM2012-900-2P-TL002")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_ACM2012-900-2P-TL002/ACM2012-900-2P-TL002/KiCad")(options "")(descr ""))
+  (lib (name "PCM3060PWR")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_PCM3060PWR/PCM3060PWR/KiCad")(options "")(descr ""))
+  (lib (name "1725656")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_1725656/1725656/KiCad")(options "")(descr ""))
+  (lib (name "1725698")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_1725698/1725698/KiCad")(options "")(descr ""))
+  (lib (name "1725672")(type "KiCad")(uri "${KIPRJMOD}/Components/LIB_1725672/1725672/KiCad")(options "")(descr ""))
 )

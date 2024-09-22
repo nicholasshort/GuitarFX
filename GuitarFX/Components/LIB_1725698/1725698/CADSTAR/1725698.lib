@@ -1,0 +1,18 @@
+.1725698 :1 ;Conn PC Terminal Block 6 POS 2.54mm Solder ST Thru-Hole 6A
+"1725698"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN 1725698
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1725698)
+~!Mouser Part Number (651-1725698)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725698?qs=Ul7CXFMnlWUIR3VpVwwC4A%3D%3D)
+~!Arrow Part Number (1725698)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1725698/phoenix-contact?region=nac)
+~!Link Datasheet (https://www.phoenixcontact.com/online/portal/us/pxc/product_detail_page/!ut/p/z1/5Vddc6IwFP0r7oNvxYSPBHhEdNda6-KKW-GFISE6tHwVUmn76zeonY7dVmfH8WEH5s6QhHtv7jnJYeYCHyyBn4WbeB3yOM_CRMw9Hwdu3x0OHQXLP2eoD68HyB5OtF_yaKqA38AHfsUSRjmL7JCzdV6-AM-aTJoPPCTAk5tRQekD8B)
+~!Height (8.65mm)
+~!3D_Model (1725698)
+"1725698"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

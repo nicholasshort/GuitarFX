@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1725672
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=4.2
+Released=2016-06-16 11:11:57
+Downloaded=2024-09-22 04:06:57
+3D=Y

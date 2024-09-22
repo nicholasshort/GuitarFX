@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1725698'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1725698" (!) = "", "1725698", "Other", "651-1725698", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725698?qs=Ul7CXFMnlWUIR3VpVwwC4A%3D%3D", "1725698", "https://www.arrow.com/en/products/1725698/phoenix-contact?region=nac", "Conn PC Terminal Block 6 POS 2.54mm Solder ST Thru-Hole 6A", "https://www.phoenixcontact.com/online/portal/us/pxc/product_detail_page/!ut/p/z1/5Vddc6IwFP0r7oNvxYSPBHhEdNda6-KKW-GFISE6tHwVUmn76zeonY7dVmfH8WEH5s6QhHtv7jnJYeYCHyyBn4WbeB3yOM_CRMw9Hwdu3x0OHQXLP2eoD68HyB5OtF_yaKqA38AHfsUSRjmL7JCzdV6-AM-aTJoPPCTAk5tRQekD8B", "8.65 mm"
+END_PART
+
+END.
