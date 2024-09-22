@@ -1526,14 +1526,14 @@
     (property "Value" "1k" (at 162.56 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 162.56 104.648 90)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" (at 162.56 104.648 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 708c6e6b-733e-4c98-b0f8-9cfa70214606))
-    (pin "2" (uuid e09b0634-60c8-4164-8775-8990674de7d9))
+    (pin "1" (uuid 4c2828be-e45e-46c5-93de-37a4fbefc247))
+    (pin "2" (uuid 43c453c3-a897-4b6c-a8c5-f5e641231c9b))
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/171d6b95-1f9c-4c9d-954a-bc461d0cb77a"
@@ -1578,14 +1578,14 @@
     (property "Value" "10R" (at 162.56 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 162.56 64.643 90)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal" (at 162.56 64.643 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db3a96f3-a86c-417b-afef-6c545a55ac7c))
-    (pin "2" (uuid e7ab0bda-0dc0-45ed-98fe-21b271ba1b7f))
+    (pin "1" (uuid 1f741c60-2c34-40ee-9ca3-257c156a7309))
+    (pin "2" (uuid 041ed0a4-6b37-47f3-8a07-e5dc46d00129))
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/171d6b95-1f9c-4c9d-954a-bc461d0cb77a"
