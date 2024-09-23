@@ -1245,7 +1245,7 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid b513b794-7b25-41bd-8ae0-3199bebf87fa)
   )
-  (text "9V < Vin < 12V" (at 47.625 55.245 0)
+  (text "9V < Vin < 12V" (at 43.18 59.055 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid e7200a11-b2ce-4964-9562-07f6573dd266)
   )
