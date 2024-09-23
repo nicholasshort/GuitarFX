@@ -2854,7 +2854,7 @@
     (tstamp 4d04afeb-4324-43d4-832b-7b3aa0fe56b1)
     (at 163.89 107.99)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
       (tstamp ecd02ca5-d86b-4297-9746-84242275ce87)
     )
@@ -3450,6 +3450,11 @@
     (pad "5" smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+5VA") (pinfunction "V+") (pintype "power_in") (tstamp 2a177bb3-c3fe-481d-9261-db76746a0db1))
     (model "TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4327,6 +4332,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -5157,6 +5167,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" (layer "F.Cu")
@@ -5907,6 +5922,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -6251,6 +6271,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -6429,6 +6454,11 @@
     (pad "5" smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+5VA") (pinfunction "V+") (pintype "power_in") (tstamp f69855c3-4981-45b6-ab37-4ca4949aed8d))
     (model "TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7571,6 +7601,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "TLV9161IDBVR:SOT95P280X145-5N" (layer "F.Cu")
@@ -7641,6 +7676,11 @@
     (pad "5" smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+5VA") (pinfunction "V+") (pintype "power_in") (tstamp 03437395-8995-4090-b499-6111f9311b1c))
     (model "TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8221,6 +8261,11 @@
       (net 83 "unconnected-(J301-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive+no_connect") (tstamp 5bbb6569-8acc-4db4-b864-a3b1152b7203))
     (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/Misc 3D Models/HRO_TYPE-C-31-M-12.step"
+      (offset (xyz -4.5 -3.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -8966,6 +9011,11 @@
     (pad "5" smd rect (at 1.25 -0.95 90) (size 0.6 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+5VA") (pinfunction "V+") (pintype "power_in") (tstamp e87f4732-ce46-4d77-90eb-3278fc4f1cb1))
     (model "TLV9161IDBVR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/Components/LIB_TLV9161IDBVR/TLV9161IDBVR/3D/TLV9161IDBVR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
