@@ -5124,31 +5124,6 @@
     )
   )
 
-  (symbol (lib_id "power:VDDA") (at 139.065 149.225 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7baef5cd-e420-47fa-a1ee-3b7646f66760)
-    (property "Reference" "#PWR0321" (at 139.065 153.035 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDDA" (at 139.065 144.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 139.065 149.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.065 149.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c54d0651-d5ff-486e-9828-0ea72f7b93ac))
-    (instances
-      (project "GuitarFX"
-        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/cf97d527-62da-4324-8e3d-11052c92c164"
-          (reference "#PWR0321") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:FerriteBead") (at 130.81 28.575 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d668fb6-b0a2-479e-9a4a-010fc1d8f204)
@@ -5816,6 +5791,31 @@
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/cf97d527-62da-4324-8e3d-11052c92c164"
           (reference "U301") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 139.065 149.225 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cdedfd19-0869-41e6-b2dd-3fa7d7b5fc8f)
+    (property "Reference" "#PWR0321" (at 139.065 153.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 139.065 144.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 139.065 149.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 139.065 149.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 64302bc6-7486-49c7-9b1f-23376d63f7a3))
+    (instances
+      (project "GuitarFX"
+        (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/cf97d527-62da-4324-8e3d-11052c92c164"
+          (reference "#PWR0321") (unit 1)
         )
       )
     )
