@@ -3370,7 +3370,7 @@
     (property "Value" "1n" (at 147.955 60.325 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 154.6352 62.865 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 154.6352 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 59.055 0)
