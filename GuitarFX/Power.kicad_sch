@@ -2092,7 +2092,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 87.63 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ffc2f395-8de5-4fc9-944a-478813a4099c)
     (property "Reference" "C205" (at 91.44 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2106,8 +2106,8 @@
     (property "Datasheet" "~" (at 87.63 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f667a853-a3cb-4006-8a98-644a58f53dfd))
-    (pin "2" (uuid d981daf2-6a8e-4ffa-bafe-4a27d018d28a))
+    (pin "1" (uuid d3a4bbba-ab48-468c-92de-cee48aec69aa))
+    (pin "2" (uuid 6755064b-e713-41fe-9438-373334bdfb12))
     (instances
       (project "GuitarFX"
         (path "/4ab4bfc6-98ca-4cb1-8273-436b96035b51/171d6b95-1f9c-4c9d-954a-bc461d0cb77a"
