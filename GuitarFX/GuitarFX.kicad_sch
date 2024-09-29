@@ -155,6 +155,9 @@
     (property "Datasheet" "~" (at 29.845 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB Part#" "" (at 29.845 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f08e23cb-8b96-4f3f-afb2-fe6738561028))
     (instances
       (project "GuitarFX"
@@ -178,6 +181,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB Part#" "" (at 55.88 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f9558b83-3267-4538-997d-ffb1dce9af70))
@@ -280,6 +286,9 @@
     (property "Datasheet" "~" (at 29.845 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB Part#" "" (at 29.845 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 605e0bea-f0df-4f7a-bf47-c1d0790db25d))
     (instances
       (project "GuitarFX"
@@ -303,6 +312,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.88 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB Part#" "" (at 55.88 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6660a9ca-7277-4ba8-861b-005e3175690a))
