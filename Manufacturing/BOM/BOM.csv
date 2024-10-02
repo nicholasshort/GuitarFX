@@ -1,0 +1,46 @@
+Comment,Designator,Footprint,JLCPCB Part #
+47uF Unpolarized capacitor,"C201,C202,C203,C204",C_0805_2012Metric,C108659
+2.2uF Unpolarized capacitor,"C205,C206,C207,C208,C411,C412",C_0805_2012Metric,C77081
+10uF Unpolarized capacitor,"C209,C210",C_0805_2012Metric,C90543
+2.2u Unpolarized capacitor,"C301,C318,C319",C_0603_1608Metric,C71001
+100n Unpolarized capacitor,"C302,C303,C304,C305,C306,C307,C308,C309,C310,C311,C312,C313,C316,C317,C402,C403,C404,C420,C421,C429,C431,C433",C_0402_1005Metric,C432917
+10p Unpolarized capacitor,"C314,C315",C_0402_1005Metric,C258501
+1n Unpolarized capacitor,"C401,C409,C419,C423",C_0402_1005Metric,C106205
+22u Unpolarized capacitor,C405,C_0805_2012Metric,C129303
+10n Unpolarized capacitor,C406,C_0402_1005Metric,C386111
+4.7u Unpolarized capacitor,"C407,C422",C_0603_1608Metric,C77045
+150p Unpolarized capacitor,"C408,C410,C424",C_0603_1608Metric,C126577
+10u Unpolarized capacitor,"C428,C430,C432",C_0603_1608Metric,C380314
+"MBR0530 30V 0.5A Schottky Power Rectifier Diode, SOD-123","D201,D202",D_SOD-123,C77336
+"SMAJ15A 400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)","D203,D401,D403",D_SMA,C908769
+LED Light emitting diode,D204,LED_0603_1608Metric,C5123548
+"PESD3V3L5UY Low capacitance unidirectional fivefold ESD protection diode array, 3.3V, Common Anode, SOT-363",D302,SOT-363_SC-70-6,C3021133
+"LED_RGBA RGB LED, red/green/blue/anode",D303,LED_SMD_RGB_AAA3528LSEEZGKQBKS,C5547384
+120R Ferrite bead,"FB201,FB301,FB302",L_0603_1608Metric,C12391
+ACM2012-900-2P-TL002 Common Mode Chokes / Filters -,FL301,ACM20129002PTL002,C3211819
+PCM3060PWR 24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate,IC401,SOP65P640X120-28N,C2651841
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)","J202,J401,J402","TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",C3029316
+USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J301,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948
+"Screw_Terminal_01x06 Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J303,"TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal",C3817456
+10R Resistor,R201,R_0805_2012Metric,C17415
+1k Resistor,"R202,R401,R403,R404",R_0402_1005Metric,C102758
+10k Resistor,"R301,R427,R429",R_0402_1005Metric,C176114
+33R Resistor,"R302,R305,R306,R307,R308,R419,R420,R424,R426,R428",R_0603_1608Metric,C103557
+5.1k Resistor,"R303,R304",R_0402_1005Metric,C325521
+325R (300R) Resistor,"R309,R310",R_0603_1608Metric,C137637
+750R Resistor,R311,R_0603_1608Metric,C328375
+1M Resistor,"R402,R409",R_0402_1005Metric,C409676
+8.2k Resistor,"R405,R421",R_0603_1608Metric,C103830
+27k Resistor,"R406,R422",R_0603_1608Metric,C116691
+15k Resistor,"R407,R423",R_0603_1608Metric,C136588
+100R Resistor,"R408,R425",R_0402_1005Metric,C279985
+100k Resistor,R410,R_0402_1005Metric,C192169
+5.1k Resistor,R411,R_0603_1608Metric,C318133
+10k Resistor,"R417,R418",R_0603_1608Metric,C103210
+"SW_SPDT Switch, single pole double throw",SW301,SW_SPDT_PCM12,C221841
+"NCP718xSN500 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23",U201,SOT-23-5,C892796
+"NCP1117-3.3_SOT223 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223",U202,SOT-223-3_TabPin2,C26537
+"USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U301,SOT-23-6,C5261088
+"STM32H733VGTx STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.71-3.6V, 82 GPIO, LQFP100",U302,LQFP-100_14x14mm_P0.5mm,C730160
+"TLV9161IDBVR Operational Amplifiers - Op Amps Single 10-MHz, 16-V rail-to-rail input/output, very low noise, high slew rate op amp","U401,U402,U403,U406,U407",SOT95P280X145-5N,C4368955
+"24MHz Four pin crystal, GND on pins 2 and 4",Y301,Crystal_SMD_3225-4Pin_3.2x2.5mm,C5308005
