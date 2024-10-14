@@ -17,7 +17,6 @@ LED Light emitting diode,D204,LED_0603_1608Metric,C5123548
 "PESD3V3L5UY Low capacitance unidirectional fivefold ESD protection diode array, 3.3V, Common Anode, SOT-363",D302,SOT-363_SC-70-6,C3021133
 "LED_RGBA RGB LED, red/green/blue/anode",D303,LED_SMD_RGB_AAA3528LSEEZGKQBKS,C5547384
 120R Ferrite bead,"FB201,FB301,FB302",L_0603_1608Metric,C12391
-ACM2012-900-2P-TL002 Common Mode Chokes / Filters -,FL301,ACM20129002PTL002,C3211819
 PCM3060PWR 24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate,IC401,SOP65P640X120-28N,C2651841
 "Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)","J202,J401,J402","TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",C3029316
 USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J301,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948
@@ -25,14 +24,14 @@ USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J301,USB_C_Rece
 10R Resistor,R201,R_0805_2012Metric,C17415
 1k Resistor,"R202,R401,R403,R404",R_0402_1005Metric,C102758
 10k Resistor,"R301,R427,R429",R_0402_1005Metric,C176114
-33R Resistor,"R302,R305,R306,R307,R308,R419,R420,R424,R426,R428",R_0603_1608Metric,C103557
+0R Resistor,"R302,R305,R306,R307,R308,R419,R420,R424,R426,R428",R_0603_1608Metric,C304185
 5.1k Resistor,"R303,R304",R_0402_1005Metric,C325521
 325R (300R) Resistor,"R309,R310",R_0603_1608Metric,C137637
 750R Resistor,R311,R_0603_1608Metric,C328375
 1M Resistor,"R402,R409",R_0402_1005Metric,C409676
-8.2k Resistor,"R405,R421",R_0603_1608Metric,C103830
-27k Resistor,"R406,R422",R_0603_1608Metric,C116691
-15k Resistor,"R407,R423",R_0603_1608Metric,C136588
+6.8k Resistor,"R405,R421",R_0603_1608Metric,C318134
+22k Resistor,"R406,R422",R_0603_1608Metric,C285211
+12k Resistor,"R407,R423",R_0603_1608Metric,C318136
 100R Resistor,"R408,R425",R_0402_1005Metric,C279985
 100k Resistor,R410,R_0402_1005Metric,C192169
 5.1k Resistor,R411,R_0603_1608Metric,C318133
@@ -41,6 +40,6 @@ USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J301,USB_C_Rece
 "NCP718xSN500 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23",U201,SOT-23-5,C892796
 "NCP1117-3.3_SOT223 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223",U202,SOT-223-3_TabPin2,C26537
 "USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U301,SOT-23-6,C5261088
-"STM32H733VGTx STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.71-3.6V, 82 GPIO, LQFP100",U302,LQFP-100_14x14mm_P0.5mm,C730160
+"STM32H723VGTx STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.71-3.6V, 82 GPIO, LQFP100",U303,LQFP-100_14x14mm_P0.5mm,C730142
 "TLV9161IDBVR Operational Amplifiers - Op Amps Single 10-MHz, 16-V rail-to-rail input/output, very low noise, high slew rate op amp","U401,U402,U403,U406,U407",SOT95P280X145-5N,C4368955
 "24MHz Four pin crystal, GND on pins 2 and 4",Y301,Crystal_SMD_3225-4Pin_3.2x2.5mm,C5308005
