@@ -1,6 +1,6 @@
 # GuitarFX
 
-This is a digital guitar effects pedal designed as a generic DSP platform. So far, I've writtsimple algorithms such as volume and simple tone control, however I am planning to implement more exciting effects soon! Namely, hard and soft clipping, digital delay, and much more. The two knobs control various parameters within the current algorithm, such volume or cutoff frequency.
+This is a digital guitar effects pedal designed as a generic DSP platform. I've written simple algorithms such as volume and tone control, however plans are in the works for others: namely hard and soft clipping, digital delay, and much more. The two knobs control various parameters within the current algorithm, including volume or cutoff frequency.
 
 ![Assembled board](images/board.jpeg)
 ![Enclosure](images/enclosure.jpeg)
