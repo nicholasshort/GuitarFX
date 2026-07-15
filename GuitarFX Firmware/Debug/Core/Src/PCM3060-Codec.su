@@ -1,0 +1,4 @@
+../Core/Src/PCM3060-Codec.c:21:9:PCM3060_Init	16	static
+../Core/Src/PCM3060-Codec.c:54:6:PCM3060_Reset	8	static
+../Core/Src/PCM3060-Codec.c:64:19:PCM3060_RegWrite	32	static
+../Core/Src/PCM3060-Codec.c:70:19:PCM3060_RegRead	32	static
