@@ -15,8 +15,8 @@ typedef enum {
 
 audio_stream_status_e audio_stream_init();
 
-bool audio_stream_input_buffer_ready();
-bool audio_stream_output_buffer_ready();
+bool audio_stream_adc_buffer_ready();
+bool audio_stream_dac_buffer_ready();
 
 // adc_buffer_data must be length AUDIO_STREAM_BUFFER_FRAME_COUNT
 audio_stream_status_e audio_stream_read_adc_buffer(int32_t adc_buffer_data[restrict static AUDIO_STREAM_BUFFER_FRAME_COUNT]);

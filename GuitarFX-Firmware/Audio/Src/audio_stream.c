@@ -1,6 +1,8 @@
 #include "audio_stream.h"
 #include "i2s.h"
 
+#include <string.h>
+
 #define ADC_BUFFER_LEN ((AUDIO_STREAM_BUFFER_FRAME_COUNT * 2) * 2) // Stereo audio under the hood + pingpong buffer
 #define DAC_BUFFER_LEN ((AUDIO_STREAM_BUFFER_FRAME_COUNT * 2) * 2)
 
@@ -18,9 +20,9 @@ static bool initialized = false;
 
 // Esnure ADC and DAC buffers are placed in RAM such that they fill complete cache lines
 // We don't want any sharing with other variables in cache lines. Otherwise, flushing and invalidating cache can unintentionally corrupt variable values
-__attribute__((aligned(DCACHE_LINE_SIZE_BYTES)))
+__attribute__((section(".dma_buffers"), aligned(DCACHE_LINE_SIZE_BYTES)))
 static int32_t adc_buffer[ADC_BUFFER_LEN];
-__attribute__((aligned(DCACHE_LINE_SIZE_BYTES)))
+__attribute__((section(".dma_buffers"), aligned(DCACHE_LINE_SIZE_BYTES)))
 static int32_t dac_buffer[DAC_BUFFER_LEN];
 
 static volatile bool adc_buffer_ready;
@@ -34,9 +36,12 @@ audio_stream_status_e audio_stream_init() {
     adc_buffer_ready = false;
     dac_buffer_ready = false;
 
-    SCB_CleanInvalidateDCache_by_Addr((uint32_t*)adc_buffer, ADC_BUFFER_BYTES); // Sync RAM with cache and mark invalid so adc buffer reads go to RAM first
+    memset(adc_buffer, 0, ADC_BUFFER_BYTES);
+    memset(dac_buffer, 0, DAC_BUFFER_BYTES);
 
-    SCB_CleanDCache_by_Addr((uint32_t*)dac_buffer, DAC_BUFFER_BYTES); // Ensure cached dac buffer is flushed to RAM before DMA starts
+    // SCB_CleanInvalidateDCache_by_Addr((uint32_t*)adc_buffer, ADC_BUFFER_BYTES); // Sync RAM with cache and mark invalid so adc buffer reads go to RAM first
+
+    // SCB_CleanDCache_by_Addr((uint32_t*)dac_buffer, DAC_BUFFER_BYTES); // Ensure cached dac buffer is flushed to RAM before DMA starts
 
     HAL_StatusTypeDef err;
     err = HAL_I2SEx_TransmitReceive_DMA(I2S_HANDLE, (uint16_t*)dac_buffer, (uint16_t*)adc_buffer, ADC_BUFFER_LEN * 2);
@@ -79,7 +84,7 @@ audio_stream_status_e audio_stream_read_adc_buffer(int32_t adc_buffer_data[restr
     __enable_irq();
 
     // Invalidate cache data to force CPU to start reading from RAM
-    SCB_InvalidateDCache_by_Addr((uint32_t*)adc_half, (ADC_BUFFER_BYTES / 2));
+    // SCB_InvalidateDCache_by_Addr((uint32_t*)adc_half, (ADC_BUFFER_BYTES / 2));
         
     for (uint32_t i = 0u; i < AUDIO_STREAM_BUFFER_FRAME_COUNT; i++) {
         adc_buffer_data[i] = (adc_half[2*i] >> 8); // Data is placed in buffer by DMA in left aligned format. Ensure right aligned
@@ -117,7 +122,7 @@ audio_stream_status_e audio_stream_write_dac_buffer(int32_t const dac_buffer_dat
     }
 
     // Flush dirty cache lines to RAM so DMA can access it
-    SCB_CleanDCache_by_Addr((uint32_t*)dac_half, (DAC_BUFFER_BYTES / 2));
+    // SCB_CleanDCache_by_Addr((uint32_t*)dac_half, (DAC_BUFFER_BYTES / 2));
 
     return AUDIO_STREAM_OK;
 

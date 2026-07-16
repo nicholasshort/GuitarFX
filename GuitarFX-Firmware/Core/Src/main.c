@@ -29,6 +29,9 @@
 #include "PCM3060-Codec.h"
 #include "audio_stream.h"
 #include "audio_process.h"
+#include "gain.h"
+
+#include <stddef.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -107,8 +110,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  gain_effect_t gain_effect = {
+    .process = gain_process,
+    .init = gain_init,
+    .context = NULL,
+  };
   while (1)
-  {
+  { 
+    audio_process_poll(&gain_effect);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

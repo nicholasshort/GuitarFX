@@ -196,7 +196,18 @@ SECTIONS
     . = ALIGN(8);
   } >DTCMRAM
 
+  /* Create a section for dma buffers. DMA cannot reach DTCM */
+  .dma_buffers (NOLOAD) :
+  {
+    . = ALIGN(32);
+    __dma_buffers_start__ = .;
 
+    *(.dma_buffers)
+    *(.dma_buffers*)
+
+    . = ALIGN(32);
+    __dma_buffers_end__ = .;
+  } >RAM_D1
 
   /* Remove information from the standard libraries */
   /DISCARD/ :

@@ -32,6 +32,15 @@ OPT = -Og
 BUILD_DIR = build
 
 ######################################
+# debug tools
+######################################
+OPENOCD ?= openocd
+GDB ?= gdb-multiarch
+
+OPENOCD_CFG = -f interface/stlink.cfg -f target/stm32h7x.cfg
+OPENOCD_LOG = /tmp/openocd-$(TARGET).log
+
+######################################
 # source
 ######################################
 # C sources
@@ -69,7 +78,8 @@ Core/Src/sysmem.c \
 Core/Src/syscalls.c \
 DriversBoard/Src/PCM3060-Codec.c \
 Audio/Src/audio_stream.c \
-Audio/Src/audio_process.c 
+Audio/Src/audio_process.c \
+Audio/Effects/Src/gain.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -139,7 +149,8 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32H7xx/Include \
 -IDrivers/CMSIS/Include \
 -IDriversBoard/Inc \
--IAudio/Inc 
+-IAudio/Inc \
+-IAudio/Effects/Inc
 
 
 # compile gcc flags
@@ -211,6 +222,31 @@ $(BUILD_DIR):
 #######################################
 clean:
 	-rm -fR $(BUILD_DIR)
+
+#######################################
+# flash/debug helpers
+#######################################
+flash: all
+	$(OPENOCD) $(OPENOCD_CFG) -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+
+openocd:
+	$(OPENOCD) $(OPENOCD_CFG)
+
+reset:
+	$(OPENOCD) $(OPENOCD_CFG) -c "init; reset run; exit"
+
+debug: all
+	@echo "Starting OpenOCD..."
+	@$(OPENOCD) $(OPENOCD_CFG) > $(OPENOCD_LOG) 2>&1 & \
+	OCD_PID=$$!; \
+	trap 'echo "Stopping OpenOCD..."; kill $$OCD_PID >/dev/null 2>&1 || true' EXIT INT TERM; \
+	sleep 1; \
+	echo "Starting GDB..."; \
+	$(GDB) $(BUILD_DIR)/$(TARGET).elf \
+		-ex "target extended-remote localhost:3333" \
+		-ex "monitor reset halt" \
+		-ex "break main" \
+		-ex "continue"
   
 #######################################
 # dependencies
