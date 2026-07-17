@@ -44,7 +44,7 @@ audio_stream_status_e audio_stream_init() {
     // SCB_CleanDCache_by_Addr((uint32_t*)dac_buffer, DAC_BUFFER_BYTES); // Ensure cached dac buffer is flushed to RAM before DMA starts
 
     HAL_StatusTypeDef err;
-    err = HAL_I2SEx_TransmitReceive_DMA(I2S_HANDLE, (uint16_t*)dac_buffer, (uint16_t*)adc_buffer, ADC_BUFFER_LEN * 2);
+    err = HAL_I2SEx_TransmitReceive_DMA(I2S_HANDLE, (uint16_t*)dac_buffer, (uint16_t*)adc_buffer, ADC_BUFFER_LEN);
     if (err != HAL_OK)
         return AUDIO_STREAM_ERR_HAL;
 
