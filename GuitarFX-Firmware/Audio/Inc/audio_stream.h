@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define AUDIO_STREAM_BUFFER_FRAME_COUNT 1024 
+#define AUDIO_STREAM_BUFFER_FRAME_COUNT 128 
 
 typedef enum {
     AUDIO_STREAM_OK,
