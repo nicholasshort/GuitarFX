@@ -1,4 +1,5 @@
 #include "gain.h"
+#include "audio_types.h"
 
 #include <stdint.h>
 
