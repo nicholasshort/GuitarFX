@@ -112,12 +112,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   gain_effect_t gain_effect = {
     .process = gain_process,
-    .init = gain_init,
-    .context = NULL,
+    .reset = gain_reset,
   };
+  gain_init(0.5f);
   while (1)
   { 
-    audio_process_poll(&gain_effect);
+    audio_process_poll(gain_effect);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

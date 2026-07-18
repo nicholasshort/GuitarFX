@@ -4,7 +4,7 @@
 
 static int32_t processed_audio_buffer[AUDIO_STREAM_BUFFER_FRAME_COUNT];
 
-void audio_process_poll(audio_effect_t* audio_effect) {
+void audio_process_poll(audio_effect_t audio_effect) {
     
     // Read incoming audio
     if (!audio_stream_adc_buffer_ready())
@@ -13,7 +13,7 @@ void audio_process_poll(audio_effect_t* audio_effect) {
     if (audio_stream_read_adc_buffer(processed_audio_buffer) != AUDIO_STREAM_OK)
         return;
 
-    audio_effect->process(audio_effect, processed_audio_buffer, AUDIO_STREAM_BUFFER_FRAME_COUNT);
+    audio_effect.process(processed_audio_buffer, AUDIO_STREAM_BUFFER_FRAME_COUNT);
 
     // Output processed audio
     if (!audio_stream_dac_buffer_ready())
