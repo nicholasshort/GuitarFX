@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-typedef void (*audio_effect_process_fn)(int32_t samples[restrict static 1], uint32_t frame_count);
+typedef void (*audio_effect_process_fn)(float samples[restrict static 1], uint32_t frame_count);
 typedef void (*audio_effect_reset_fn)(void);
 
 typedef struct {

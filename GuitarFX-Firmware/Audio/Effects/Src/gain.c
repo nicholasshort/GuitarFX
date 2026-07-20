@@ -23,7 +23,7 @@ void gain_reset(void) {
     
 }
 
-void gain_init(float g) {
+void gain_set(float g) {
 
     gain = g;
 

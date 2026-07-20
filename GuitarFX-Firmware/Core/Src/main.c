@@ -114,7 +114,7 @@ int main(void)
     .process = gain_process,
     .reset = gain_reset,
   };
-  gain_init(0.5f);
+  gain_set(0.5f);
   while (1)
   { 
     audio_process_poll(gain_effect);
