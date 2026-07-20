@@ -16,6 +16,12 @@ _Static_assert((DAC_BUFFER_BYTES / 2) %  DCACHE_LINE_SIZE_BYTES == 0u, "DAC half
 
 #define I2S_HANDLE (&hi2s1)
 
+#define INT24_MIN (-8388608)
+#define INT24_MAX 8388607
+
+#define INT24_TO_FLOAT(x) ((x) / 8388608.0f)
+#define FLOAT_TO_INT24(x) ((int32_t)((x) * 8388607.0f))
+
 static bool initialized = false;
 
 // Esnure ADC and DAC buffers are placed in RAM such that they fill complete cache lines
@@ -63,7 +69,7 @@ bool audio_stream_dac_buffer_ready() {
 }
 
 // adc_buffer_data must be length AUDIO_STREAM_BUFFER_FRAME_COUNT
-audio_stream_status_e audio_stream_read_adc_buffer(int32_t adc_buffer_data[restrict static AUDIO_STREAM_BUFFER_FRAME_COUNT]) {
+audio_stream_status_e audio_stream_read_adc_buffer(audio_sample_t adc_buffer_data[restrict static AUDIO_STREAM_BUFFER_FRAME_COUNT]) {
 
     if (!initialized)
         return AUDIO_STREAM_ERR_NOT_INITIALIZED;
@@ -87,7 +93,7 @@ audio_stream_status_e audio_stream_read_adc_buffer(int32_t adc_buffer_data[restr
     // SCB_InvalidateDCache_by_Addr((uint32_t*)adc_half, (ADC_BUFFER_BYTES / 2));
         
     for (uint32_t i = 0u; i < AUDIO_STREAM_BUFFER_FRAME_COUNT; i++) {
-        adc_buffer_data[i] = (adc_half[2*i] >> 8); // Data is placed in buffer by DMA in left aligned format. Ensure right aligned
+        adc_buffer_data[i] = (audio_sample_t)INT24_TO_FLOAT(adc_half[2*i] >> 8); // Data is placed in buffer by DMA in left aligned format. Ensure right aligned
     }
 
     return AUDIO_STREAM_OK;
@@ -95,7 +101,7 @@ audio_stream_status_e audio_stream_read_adc_buffer(int32_t adc_buffer_data[restr
 }
 
 // dac_buffer_data must be length AUDIO_STREAM_BUFFER_FRAME_COUNT
-audio_stream_status_e audio_stream_write_dac_buffer(int32_t const dac_buffer_data[restrict static AUDIO_STREAM_BUFFER_FRAME_COUNT]) {
+audio_stream_status_e audio_stream_write_dac_buffer(audio_sample_t const dac_buffer_data[restrict static AUDIO_STREAM_BUFFER_FRAME_COUNT]) {
     
     if (!initialized)
         return AUDIO_STREAM_ERR_NOT_INITIALIZED;
@@ -117,7 +123,7 @@ audio_stream_status_e audio_stream_write_dac_buffer(int32_t const dac_buffer_dat
         
         
     for (uint32_t i = 0u; i < AUDIO_STREAM_BUFFER_FRAME_COUNT; i++) {
-        dac_half[2*i]        = (int32_t)((uint32_t)dac_buffer_data[i] << 8);
+        dac_half[2*i]        = (int32_t)(((uint32_t)FLOAT_TO_INT24((float)dac_buffer_data[i])) << 8);
         dac_half[2*i + 1]    = 0;
     }
 

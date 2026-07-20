@@ -30,6 +30,7 @@
 #include "audio_stream.h"
 #include "audio_process.h"
 #include "gain.h"
+#include "delay.h"
 
 #include <stddef.h>
 /* USER CODE END Includes */
@@ -110,14 +111,15 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  gain_effect_t gain_effect = {
-    .process = gain_process,
-    .reset = gain_reset,
+  delay_effect_t delay_effect = {
+    .process = delay_process,
+    .reset = delay_reset,
   };
-  gain_set(0.5f);
+  delay_init();
+
   while (1)
   { 
-    audio_process_poll(gain_effect);
+    audio_process_poll(delay_effect);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

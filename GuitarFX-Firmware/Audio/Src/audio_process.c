@@ -1,8 +1,8 @@
 #include "audio_process.h"
 #include "audio_stream.h"
-#include <stdbool.h>
+#include "audio_common.h"
 
-static int32_t processed_audio_buffer[AUDIO_STREAM_BUFFER_FRAME_COUNT];
+static audio_sample_t processed_audio_buffer[AUDIO_STREAM_BUFFER_FRAME_COUNT];
 
 void audio_process_poll(audio_effect_t audio_effect) {
     
